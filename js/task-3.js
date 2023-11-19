@@ -1,12 +1,8 @@
 //Задача 3. Сортування за кількістю друзів
 
 
-
-
-
-
 const sortByDescendingFriendCount = users => {
-
+  return sortedList = users.toSorted((firstUser, secondUser) => secondUser.friends.length -  firstUser.friends.length)
 }
 
 console.log(
@@ -85,3 +81,5 @@ console.log(
 //     gender: "male"
 //   }
 // ]
+
+console.log(sortedList);
