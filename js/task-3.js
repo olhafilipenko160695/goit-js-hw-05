@@ -1,5 +1,10 @@
 //Задача 3. Сортування за кількістю друзів
 
+
+
+
+
+
 const sortByDescendingFriendCount = users => {
 
 }
